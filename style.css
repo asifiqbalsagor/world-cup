@@ -215,7 +215,36 @@ hr{
 /* mobile query end */
 /* tablet query start */
 
-@media only screen and (max-width: 689px) and (min-width: 991px) {
-
-     
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+     .container{
+          padding-top: 30px;
+          padding-left: 30px;
+          padding-right: 10px;
+        }
+     .blog-title{
+          font-size: 4vh;
+          line-height: 45px;
+          font-weight: 700px;
+          margin-bottom: 15px;
+     }
+     .section-fast{
+          display:block;
+     }
+     .all-btn-1{
+          display: flex;
+          justify-content: space-evenly;
+          margin-left: 60px;
+          margin-bottom: 40px;
+     }
+     .btn-1{
+          margin: 10px;
+          margin-top:40px ;
+     }
+     .fast-blog-div{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          width: 100%;
+            
+     }
 }
+/* tablet query end*/
