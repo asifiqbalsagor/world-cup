@@ -1,0 +1,246 @@
+/* custom settings */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+/* -----------------
+         body style start
+    ---------------------- */
+body{
+     font-family: 'Poppins', sans-serif;
+     max-width: 1240px;
+     background-color: #FFFFFF;
+     margin: 0 auto;
+}
+/* -----------------------
+   header section style 
+-------------------------*/
+.container{
+     width: 85%;
+     margin: 0 auto;
+     border-radius: 20px;
+     background-color: black;
+     color: #FFFFFF;
+     padding-top: 70px;
+     padding-left: 70px;
+     margin-top: 36px;
+}
+.blogs{
+     display: flex;
+     width: 100%;
+}
+.blog{
+     width: 100%;
+}
+.blog-title{
+     font-size: 7vh;
+     line-height: 45px;
+     font-weight: 700px;
+     margin-bottom: 15px;
+}
+.p-blog{
+     margin-bottom: 30px;
+}
+.watch-button{
+     text-decoration: none;
+     background-color: red;
+     border-radius: 10px;;
+     padding: 10px;
+     color: #FFFFFF;
+     font-size: 18px;
+}
+img{
+     width: 100%;
+}
+/* header style end */
+
+/* main style start */
+.container-1{
+     margin: 0 auto;
+     width: 85%;
+}
+.section-fast{
+     display: flex;
+     margin-top: 100px;
+}
+.all-buttton{
+     width: 50%;
+     
+}
+.btn-1{
+     margin-top: 10px;
+}
+.btn-2{
+     margin-top: 40px;
+}
+.btn-up-match{
+     text-decoration: none;
+     background-color: whitesmoke;
+     border-radius: 10px;
+     padding: 10px;
+     color: black;
+     font-size: 18px;
+}
+.btn-a-group{
+     text-decoration: none;
+     background-color:whitesmoke;
+     border-radius: 10px;
+     padding: 10px 47px;
+     color: black;
+     font-size: 18px;
+     
+}
+.btn-blog{
+    text-decoration: none;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px 69px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.match-info{
+     background-color: rgba(246, 242, 246, 0.368);
+     padding: 30px;
+     border-radius: 10px;
+}
+.extra-info{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 20px;
+     padding: 0 20px;
+}
+.nation-icon{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.ger-vs-fr{
+    margin-left: 1px;
+    margin-top: 15px;
+    
+}
+.date{
+     margin-left: 1px;
+     margin-top: 15px;
+}
+
+/* footer style start */
+.footer-container{
+     margin-top: 100px;
+     background-color: black;
+     color: #FFFFFF;
+}
+.footer-info{
+     display: flex;
+     justify-content: space-evenly;
+     height: 100px;
+}
+.font-title{
+     display: flex;
+     justify-content: center;
+     font-size: 40px;
+     font-weight: 700;
+     padding-top: 70px;
+}
+hr{
+     width: 90%;
+     margin-left: 50px;
+     margin-top: 25px;
+     margin-bottom: 25px;
+}
+.social-media{
+     display: flex;
+     justify-content: space-evenly;
+     padding-bottom: 50px;
+}
+/* end footer */
+
+/* media query style start */
+/* mobile phone */
+
+@media only screen and (max-width: 688px){ 
+      .container{
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 10px;
+      }
+     
+     .blogs{
+          display: block;
+          width: 100%;
+     }
+     .section-fast{
+          display:block;
+     }
+     .all-btn-1{
+          margin-left: 60px;
+     }
+     .imgs{
+          margin-top: 40px;
+     }
+
+     .fast-blog-div{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          width: 100%;
+          padding-top: 50px;
+          margin-left: 0;
+          margin-top: 0;   
+     }
+     hr{
+          width: 70%;
+          margin-left: 50px;
+          margin-top: 25px;
+          margin-bottom: 25px;
+     }
+     .footer-info{
+          display:block;
+          margin-left: 150px;
+     }
+     .social-media{
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 80px;
+     }
+}
+/* mobile query end */
+/* tablet query start */
+
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+     .container{
+          padding-top: 30px;
+          padding-left: 30px;
+          padding-right: 10px;
+        }
+     .blog-title{
+          font-size: 3vh;
+          line-height: 35px;
+          font-weight: 700px;
+          margin-bottom: 15px;
+     }
+     img{
+          width: 100%;
+     }
+     .section-fast{
+          display:block;
+     }
+     .all-btn-1{
+          display: flex;
+          justify-content: space-between;
+          margin-left: 0px;
+          margin-bottom: 40px;
+     }
+     .btn-1{
+          margin: 10px;
+          margin-top:40px ;
+     }
+     .fast-blog-div{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          width: 100%;
+          margin-left: 0;
+     }
+}
+/* tablet query end*/
