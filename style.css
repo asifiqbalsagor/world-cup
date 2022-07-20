@@ -12,7 +12,6 @@ body{
      max-width: 1240px;
      background-color: #FFFFFF;
      margin: 0 auto;
-     border: 1px solid red;
 }
 /* -----------------------
    header section style 
@@ -31,8 +30,11 @@ body{
      display: flex;
      width: 100%;
 }
+.blog{
+     width: 100%;
+}
 .blog-title{
-     font-size: 6.5vh;
+     font-size: 7vh;
      line-height: 45px;
      font-weight: 700px;
      margin-bottom: 15px;
@@ -160,3 +162,55 @@ hr{
      padding-bottom: 50px;
 }
 /* end footer */
+
+/* media query style start */
+/* mobile phone */
+
+@media only screen and (max-width: 688px){ 
+      .container{
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 10px;
+      }
+     
+     .blogs{
+          display: block;
+          width: 100%;
+     }
+     .section-fast{
+          display:block;
+     }
+     .all-buttton{
+          
+     }
+     .fast-blog-div{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          width: 100%;
+          padding-top: 50px;
+          margin-left: 0;
+          margin-top: 0;   
+     }
+     hr{
+          width: 70%;
+          margin-left: 50px;
+          margin-top: 25px;
+          margin-bottom: 25px;
+     }
+     .footer-info{
+          display:block;
+          margin-left: 150px;
+     }
+     .social-media{
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 80px;
+     }
+}
+/* mobile query end */
+/* tablet query start */
+
+@media only screen and (max-width: 481px) and (min-width: 768px) {
+
+     
+}
