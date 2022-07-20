@@ -76,7 +76,7 @@ body{
      text-decoration: none;
      background-color: whitesmoke;
      border-radius: 10px;
-     padding: 11px;
+     padding: 10px;
      color: black;
      font-size: 18px;
 }
@@ -101,10 +101,8 @@ body{
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      grid-gap: 10px;
-     width: 50%;
+     width: 100%;
      margin-left: 20px;
-
-
 }
 
 .blog-container{
@@ -113,6 +111,10 @@ body{
      border-radius: 10px;
      
 }
+.blog-container img{
+     width: 100%;
+}
+
 .transfer-btn{
      margin-left: 10px;
      padding: 10px;
@@ -157,3 +159,4 @@ hr{
      justify-content: space-evenly;
      padding-bottom: 50px;
 }
+/* end footer */
