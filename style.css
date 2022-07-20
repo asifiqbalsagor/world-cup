@@ -222,18 +222,21 @@ hr{
           padding-right: 10px;
         }
      .blog-title{
-          font-size: 4vh;
-          line-height: 45px;
+          font-size: 3vh;
+          line-height: 35px;
           font-weight: 700px;
           margin-bottom: 15px;
+     }
+     img{
+          width: 100%;
      }
      .section-fast{
           display:block;
      }
      .all-btn-1{
           display: flex;
-          justify-content: space-evenly;
-          margin-left: 60px;
+          justify-content: space-between;
+          margin-left: 0px;
           margin-bottom: 40px;
      }
      .btn-1{
@@ -244,7 +247,7 @@ hr{
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           width: 100%;
-            
+          margin-left: 0;
      }
 }
 /* tablet query end*/
