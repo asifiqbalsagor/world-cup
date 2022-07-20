@@ -127,11 +127,12 @@ img{
 }
 .chat-time{
      display: flex;
-     margin-left: 10px;
+     margin-left: 10px
 }
 .chat-icon{
      margin-left: 30px;
 }
+
 /* footer style start */
 .footer-container{
      margin-top: 100px;
@@ -180,9 +181,13 @@ hr{
      .section-fast{
           display:block;
      }
-     .all-buttton{
-          
+     .all-btn-1{
+          margin-left: 60px;
      }
+     .imgs{
+          margin-top: 40px;
+     }
+
      .fast-blog-div{
           display: grid;
           grid-template-columns: repeat(1, 1fr);
@@ -210,7 +215,7 @@ hr{
 /* mobile query end */
 /* tablet query start */
 
-@media only screen and (max-width: 481px) and (min-width: 768px) {
+@media only screen and (max-width: 689px) and (min-width: 991px) {
 
      
 }
