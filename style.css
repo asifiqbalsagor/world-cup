@@ -48,8 +48,8 @@ body{
      color: #FFFFFF;
      font-size: 18px;
 }
-.blog-image{
-     margin-left: 80px;
+img{
+     width: 100%;
 }
 /* header style end */
 
