@@ -48,29 +48,112 @@ body{
      color: #FFFFFF;
      font-size: 18px;
 }
-.blog-img{
+.blog-image{
      margin-left: 80px;
 }
 /* header style end */
 
 /* main style start */
+.container-1{
+     margin: 0 auto;
+     width: 85%;
+}
+.section-fast{
+     display: flex;
+     margin-top: 100px;
+}
+.all-buttton{
+     width: 50%;
+       
+}
+.btn-1{
+     margin-top: 10px;
+}
+.btn-2{
+     margin-top: 40px;
+}
+.btn-up-match{
+     text-decoration: none;
+     background-color: whitesmoke;
+     border-radius: 10px;
+     padding: 11px;
+     color: black;
+     font-size: 18px;
+}
+.btn-a-group{
+     text-decoration: none;
+     background-color:whitesmoke;
+     border-radius: 10px;
+     padding: 10px 47px;
+     color: black;
+     font-size: 18px;
+     
+}
+.btn-blog{
+    text-decoration: none;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px 69px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
 .fast-blog-div{
      display: grid;
      grid-template-columns: repeat(3, 1fr);
+     grid-gap: 10px;
+     width: 50%;
+     margin-left: 20px;
+
+
 }
 
 .blog-container{
-     border: 1px solid blue;
+     border: 1px solid gray;
      background-color: rgb(250, 251, 252);
-     border-radius: 5px;
+     border-radius: 10px;
+     
 }
 .transfer-btn{
-     margin-left: 100px;
+     margin-left: 10px;
+     padding: 10px;
 }
 .blog-info{
-     margin-left: 80px;
+     margin-left: 10px;
+     margin-bottom: 10px;
 }
 .chat-time{
      display: flex;
-     margin-left: 80px;
+     margin-left: 10px;
+}
+.chat-icon{
+     margin-left: 30px;
+}
+/* footer style start */
+.footer-container{
+     margin-top: 100px;
+     background-color: black;
+     color: #FFFFFF;
+}
+.footer-info{
+     display: flex;
+     justify-content: space-evenly;
+     height: 100px;
+}
+.font-title{
+     display: flex;
+     justify-content: center;
+     font-size: 40px;
+     font-weight: 700;
+     padding-top: 70px;
+}
+hr{
+     width: 90%;
+     margin-left: 50px;
+     margin-top: 25px;
+     margin-bottom: 25px;
+}
+.social-media{
+     display: flex;
+     justify-content: space-evenly;
+     padding-bottom: 50px;
 }
