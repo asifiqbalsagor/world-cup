@@ -109,6 +109,7 @@ img{
      grid-template-columns: repeat(3, 1fr);
      gap: 20px;
      padding: 0 20px;
+     margin-bottom: 100px;
 }
 .nation-icon{
      display: flex;
@@ -124,6 +125,17 @@ img{
 .date{
      margin-left: 15px;
      margin-top: 10px;
+}
+
+.view-all-btn{
+     text-decoration: none;
+    background-color: red;
+    border-radius: 10px;
+    padding: 25px 50px;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 550px;
+    margin-top: 200px;    
 }
 
 /* footer style start */
@@ -192,6 +204,11 @@ hr{
      .ger-vs-fr{
           margin-left: 40px;
      }
+     
+     .view-all-btn{
+     display: none;
+     }
+
      hr{
           width: 70%;
           margin-left: 50px;
@@ -244,6 +261,9 @@ hr{
           grid-template-columns: repeat(2, 1fr);
           width: 100%;
           margin-left: 0;
+     }
+     .view-all-btn{
+          margin-left: 300px;
      }
 }
 /* tablet query end*/
