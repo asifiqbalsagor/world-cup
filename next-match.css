@@ -117,13 +117,13 @@ img{
 }
 
 .ger-vs-fr{
-    margin-left: 1px;
+    margin-left: 10px;
     margin-top: 15px;
     
 }
 .date{
-     margin-left: 1px;
-     margin-top: 15px;
+     margin-left: 15px;
+     margin-top: 10px;
 }
 
 /* footer style start */
@@ -175,19 +175,22 @@ hr{
           display:block;
      }
      .all-btn-1{
-          margin-left: 60px;
+          margin-left: 90px;
      }
      .imgs{
           margin-top: 40px;
      }
 
-     .fast-blog-div{
+     .extra-info{
           display: grid;
           grid-template-columns: repeat(1, 1fr);
           width: 100%;
           padding-top: 50px;
           margin-left: 0;
           margin-top: 0;   
+     }
+     .ger-vs-fr{
+          margin-left: 40px;
      }
      hr{
           width: 70%;
@@ -236,7 +239,7 @@ hr{
           margin: 10px;
           margin-top:40px ;
      }
-     .fast-blog-div{
+     .extra-info{
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           width: 100%;
