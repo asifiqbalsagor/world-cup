@@ -25,6 +25,12 @@ body{
      padding-top: 70px;
      padding-left: 70px;
      margin-top: 36px;
+     transition: width 10s height 10s  transfrom 10s;
+}
+.container:hover{
+     width: 992px;
+     height: 558px;
+     transform: rotate(180deg);
 }
 .blogs{
      display: flex;
@@ -183,7 +189,7 @@ hr{
         padding-top: 30px;
         padding-left: 30px;
         padding-right: 10px;
-      }
+     }
      
      .blogs{
           display: block;
@@ -227,14 +233,19 @@ hr{
      }
 }
 /* mobile query end */
-/* tablet query start */
+/* tablet media query start */
 
 @media only screen and (min-width: 689px) and (max-width: 991px) {
      .container{
           padding-top: 30px;
           padding-left: 30px;
           padding-right: 10px;
-        }
+     }
+     .container:hover{
+          width: 780px;
+          height: 420px;
+          transform: rotate(180deg);
+     }
      .blog-title{
           font-size: 3vh;
           line-height: 35px;
@@ -268,4 +279,4 @@ hr{
           margin-left: 300px;
      }
 }
-/* tablet query end*/
+/* tablet media query end*/
