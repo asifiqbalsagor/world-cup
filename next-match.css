@@ -76,10 +76,10 @@ img{
 }
 .btn-up-match{
      text-decoration: none;
-     background-color: whitesmoke;
+     background-color: red;
      border-radius: 10px;
      padding: 10px;
-     color: black;
+     color: white;
      font-size: 18px;
 }
 .btn-a-group{
@@ -93,10 +93,10 @@ img{
 }
 .btn-blog{
     text-decoration: none;
-    background-color: red;
+    background-color: whitesmoke;
     border-radius: 10px;
     padding: 10px 69px;
-    color: #FFFFFF;
+    color: black;
     font-size: 18px;
 }
 .match-info{
